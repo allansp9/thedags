@@ -1,256 +1,260 @@
 <!DOCTYPE html>
 <html lang="br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="The Dags - Aqui você encontra o melhor hot-dog da Baixada Santista!">
-        <link rel="icon" type="image/png" href="img/star-3.png"/>
-        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-		<title>THE DAGS</title>
-       
-        <!--Scripts-->
-        <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script> 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAoTAdOMbN_mcCbVO8hubB5rREndhyLg6w"></script>
-        <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
-        <script src="js/main.js"></script>
-        
-        <!--Styles-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
-        <link rel="stylesheet" href="css/default-style.css" />
 
-	</head>
-    
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Dags - Aqui você encontra o melhor hot-dog da Baixada Santista!">
+    <link rel="icon" type="image/png" href="img/star-3.png" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <title>THE DAGS</title>
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAoTAdOMbN_mcCbVO8hubB5rREndhyLg6w"></script>
+    <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!--Styles-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="css/default-style.css" />
+
+</head>
+
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="51">
-<header>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#home">THE DAGS.</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#cardapio">Menus</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <main>
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#home">THE DAGS.</a>
-            </div>
+            <div class="row">
+                <div id="home">
+                    <h1 class="logo">THE DAGS.</h1>
+                    <br>
+                    <h5>BAR & DOGUERIA</h5>
+                </div>
+                <div id="sobre">
+                    <h2>Bem-vindo!</h2>
+                    <p>
+                        Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!
+                    </p>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#cardapio">Menus</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-    </nav>
-</header>
-<main>
-    <div class="container-fluid">
-       <div class="row">
-            <div id="home">
-                <h1 class="logo">THE DAGS.</h1>
-                <br>
-                <h5>BAR & DOGUERIA</h5>
-            </div>
-            <div id="sobre">
-                <h2>Bem-vindo!</h2>
-                <p>
-                    Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!
-                </p>
-
-            </div>
-            <div id="galeria" class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="img/slide/slide1.jpg" alt="slide 1"></div>
-                    <div class="swiper-slide"><img src="img/slide/slide2.jpg" alt="slide 2"></div>
-                    <div class="swiper-slide"><img src="img/slide/slide3.jpg" alt="slide 3"></div>
-                    <div class="swiper-slide"><img src="img/slide/slide4.jpg" alt="slide 4"></div>
-                    <div class="swiper-slide"><img src="img/slide/slide5.jpg" alt="slide 5"></div>
-                    <div class="swiper-slide"><img src="img/slide/slide6.jpg" alt="slide 6"></div>
-                    <div class="swiper-slide"><img src="img/slide/slide7.jpg" alt="slide 7"></div>
-                    <div class="swiper-slide"><img src="img/slide/slide8.jpg" alt="slide 8"></div>
                 </div>
+                <div id="galeria" class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/slide/slide1.jpg" alt="slide 1"></div>
+                        <div class="swiper-slide"><img src="img/slide/slide2.jpg" alt="slide 2"></div>
+                        <div class="swiper-slide"><img src="img/slide/slide3.jpg" alt="slide 3"></div>
+                        <div class="swiper-slide"><img src="img/slide/slide4.jpg" alt="slide 4"></div>
+                        <div class="swiper-slide"><img src="img/slide/slide5.jpg" alt="slide 5"></div>
+                        <div class="swiper-slide"><img src="img/slide/slide6.jpg" alt="slide 6"></div>
+                        <div class="swiper-slide"><img src="img/slide/slide7.jpg" alt="slide 7"></div>
+                        <div class="swiper-slide"><img src="img/slide/slide8.jpg" alt="slide 8"></div>
+                    </div>
+                </div>
+                <div class="social-stuff">
+                    <a class="btn btn-5b" href="#"><span class="fa fa-twitter"></span></a>
+                    <a class="btn btn-5a" href="#"><span class="fa fa-facebook"></span></a>
+                    <a class="btn btn-5c" href="#"><span class="fa fa-instagram"></span></a>
+                </div>
+                <div id="cardapio">
+                    <div class="cardapio-dogs">
+                        <h2>HOT-DOGS</h2>
+                        <ul>
+                            <li>
+                                <h3>Margheriti</h3>
+                                <p>Salsicha, queijo fundido, molho de tomate, peperoni, mussarela e orégano.</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Big Guy BLT</h3>
+                                <p>Salsicha, Bacon em tiras, Alface, Tomate e Molho de Cebola, Iogurte e Alho.</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Choripan</h3>
+                                <p>Lingüiça toscana, chimichurri, maionese de alho.</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Bacon</h3>
+                                <p>Salsicha enrolada em bacon, maionese de bacon e bacon crispy.</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Veggy</h3>
+                                <p>Salsicha de Soja, Creme de milho, farofa de castanha de caju e alho poró.</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Ricardinho</h3>
+                                <p>Salsicha, chucrute, batata palha, molho de tomate.</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Freddy’s BBQ</h3>
+                                <p>Costelinha desfiada no BBQ, cream cheese, salsa e cebolinha.</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Onion</h3>
+                                <p>Salsicha com onion ring em volta, molho barbecue e maionese de alho.</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Crocante</h3>
+                                <p>Salsicha Frankfurt empanada com corn flakes, relish de pepino e mostarda dijon.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cardapio-bebidas">
+                        <h2>Bebidas</h2>
+                        <ul>
+                            <li>
+                                <h3>Longnecks</h3>
+                                <p>Heineken</p>
+                                <p>Budweiser</p>
+                                <p>Stella Artois</p>
+                                <p>Desperados</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Refrigerantes</h3>
+                                <p>Coca-Cola</p>
+                                <p>Guaraná Antarctica</p>
+                                <p>Itubaina</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Sucos</h3>
+                                <p>Laranja</p>
+                                <p>Abacaxi com Hortelã</p>
+                                <p>Morango</p>
+                                <p>Acerola</p>
+                                <p>Goiaba</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Drinks e Doses</h3>
+                                <p>Caipirinha</p>
+                                <p>Sakerita</p>
+                                <p>Sakê</p>
+                                <p>Absolut</p>
+                                <p>Jack Daniels</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cardapio-sobremesas">
+                        <h2>Sobremesas</h2>
+                        <ul>
+                            <li>
+                                <h3>Milkshake 1</h3>
+                                <p>descrição</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Milkshake 2</h3>
+                                <p>descrição</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Milkshake 3</h3>
+                                <p>descrição</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Milkshake 4</h3>
+                                <p>descrição</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Sobremesa 1</h3>
+                                <p>descrição</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Sobremesa 2</h3>
+                                <p>descrição</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Sobremesa 3</h3>
+                                <p>descrição</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Sobremesa 4</h3>
+                                <p>descrição</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cardapio-porcoes">
+                        <h2>Porções</h2>
+                        <ul>
+                            <li>
+                                <h3>Fritas</h3>
+                                <p>descrição</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Onion Ring</h3>
+                                <p>descrição</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h3>Batata Rustica</h3>
+                                <p>descrição</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="contato">
+                    <h2>Av. Pedro Lessa, 2466 - Santos-SP</h2>
+                    <h2>Tel: 3333-3333</h2>
+                    <h2>contato@thedags.com</h2>
+                </div>
+                <div id="googleMap" class="mapa"></div>
             </div>
-            <div class="social-stuff">
-                <a class="btn btn-5b" href="#"><span class="fa fa-twitter"></span></a>
-                <a class="btn btn-5a" href="#"><span class="fa fa-facebook"></span></a>
-                <a class="btn btn-5c" href="#"><span class="fa fa-instagram"></span></a>
-            </div>
-            <div id="cardapio">
-                <div class="cardapio-dogs">
-                    <h2>HOT-DOGS</h2>
-                    <ul>
-                        <li>
-                            <h3>Margheriti</h3>
-                            <p>Salsicha, queijo fundido, molho de tomate, peperoni, mussarela e orégano.</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>   
-                            <h3>Big Guy BLT</h3>
-                            <p>Salsicha, Bacon em tiras, Alface, Tomate e Molho de Cebola, Iogurte e Alho.</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>  
-                            <h3>Choripan</h3>
-                            <p>Lingüiça toscana, chimichurri, maionese de alho.</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>
-                            <h3>Bacon</h3>
-                            <p>Salsicha enrolada em bacon, maionese de bacon e bacon crispy.</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>
-                            <h3>Veggy</h3>
-                           <p>Salsicha de Soja, Creme de milho, farofa de castanha de caju e alho poró.</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>
-                            <h3>Ricardinho</h3>
-                            <p>Salsicha, chucrute, batata palha, molho de tomate.</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>
-                           <h3>Freddy’s BBQ</h3>
-                            <p>Costelinha desfiada no BBQ, cream cheese, salsa e cebolinha.</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>
-                            <h3>Onion</h3>
-                            <p>Salsicha com onion ring em volta, molho barbecue e maionese de alho.</p>
-                       </li>
-                        <div class="divider"></div>
-                        <li>
-                            <h3>Crocante</h3>
-                            <p>Salsicha Frankfurt empanada com corn flakes, relish de pepino e mostarda dijon.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="cardapio-bebidas">
-                    <h2>Bebidas</h2>
-                    <ul>
-                        <li>
-                            <h3>Longnecks</h3>
-                            <p>Heineken</p>
-                            <p>Budweiser</p>
-                            <p>Stella Artois</p>
-                            <p>Desperados</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>
-                            <h3>Refrigerantes</h3>
-                            <p>Coca-Cola</p>
-                            <p>Guaraná Antarctica</p>
-                            <p>Itubaina</p>
-                        </li>    
-                        <div class="divider"></div>     
-                        <li>    
-                            <h3>Sucos</h3>
-                            <p>Laranja</p>
-                            <p>Abacaxi com Hortelã</p>
-                            <p>Morango</p>
-                            <p>Acerola</p>
-                            <p>Goiaba</p>
-                        </li>    
-                        <div class="divider"></div>     
-                        <li>    
-                            <h3>Drinks e Doses</h3>
-                            <p>Caipirinha</p>
-                            <p>Sakerita</p>
-                            <p>Sakê</p>
-                            <p>Absolut</p>
-                            <p>Jack Daniels</p>
-                        </li>    
-                    </ul>
-                </div>
-                <div class="cardapio-sobremesas">
-                    <h2>Sobremesas</h2>
-                    <ul>
-                       <li>
-                            <h3>Milkshake 1</h3>
-                            <p>descrição</p>
-                       </li>
-                       <div class="divider"></div>
-                       <li>
-                           <h3>Milkshake 2</h3>
-                           <p>descrição</p>
-                       </li>
-                       <div class="divider"></div>
-                       <li>
-                           <h3>Milkshake 3</h3>
-                           <p>descrição</p>
-                       </li>
-                       <div class="divider"></div>
-                       <li>
-                           <h3>Milkshake 4</h3>
-                           <p>descrição</p>
-                       </li>
-                       <div class="divider"></div>
-                       <li>
-                            <h3>Sobremesa 1</h3>
-                            <p>descrição</p>
-                       </li>
-                       <div class="divider"></div>
-                       <li>
-                           <h3>Sobremesa 2</h3>
-                           <p>descrição</p>
-                       </li>
-                       <div class="divider"></div>
-                       <li>
-                           <h3>Sobremesa 3</h3>
-                           <p>descrição</p>
-                       </li>
-                       <div class="divider"></div>
-                       <li>
-                           <h3>Sobremesa 4</h3>
-                           <p>descrição</p>
-                       </li>
-                    </ul>
-                </div>
-                <div class="cardapio-porcoes">
-                    <h2>Porções</h2>
-                    <ul>
-                       <li>
-                        <h3>Fritas</h3>
-                        <p>descrição</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>
-                        <h3>Onion Ring</h3>
-                        <p>descrição</p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>
-                        <h3>Batata Rustica</h3>
-                        <p>descrição</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="contato">
-                <h2>Av. Pedro Lessa, 2466 - Santos-SP</h2>
-                <h2>Tel: 3333-3333</h2>
-                <h2>contato@thedags.com</h2>
         </div>
-        <div id="googleMap" class="mapa"></div>
-        </div>
-    </div>
-</main>
-<footer></footer>
-    
-    
-    
+    </main>
+    <footer></footer>
 
-    
+
+
+
+
 </body>
+
 </html>
