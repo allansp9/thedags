@@ -12,9 +12,38 @@ body {
 
 }
 
+nav.navbar-fixed-top {
+    background-color: goldenrod;
+
+}
+
+nav.navbar-fixed-top .navbar-brand {
+    font-family: Impact;
+    font-size: 2.5rem;
+    color: whitesmoke!important;
+}
+div.navbar-header button.navbar-toggle {
+    border: none;
+    background-color: transparent!important;
+}
+button.navbar-toggle .icon-bar {
+    background-color: whitesmoke!important;
+}
+nav #navbar-collapse ul li a {
+    color: whitesmoke;
+    font-size: 1.6rem;
+    transition: 0.2s linear;
+}
+
+nav #navbar-collapse ul li a:hover {
+    background-color: darkgoldenrod;
+}
+
+nav #navbar-collapse ul li.active a{
+    color: #777777;
+}
 #home {
     background-image: url(../img/bg-home.jpg);
-    background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     justify-content: center;
@@ -25,7 +54,6 @@ body {
 
 #home h1.logo {
     font-size:10rem;
-    text-decoration: overline underline;
     font-family: Impact;
     color: goldenrod;
 }
@@ -287,5 +315,8 @@ footer {
 @media (max-width:767px){
     div#cardapio {
         column-count: 1;
+    }
+    #navbar-collapse ul li {
+        text-align: center;
     }
 }
