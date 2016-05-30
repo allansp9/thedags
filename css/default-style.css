@@ -50,6 +50,7 @@ nav #navbar-collapse ul li.active a {
 #home {
     background-image: url(../img/bg-home3.jpg);
     background-size: cover;
+    background-position: center;
     height: 100vh;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
