@@ -1,5 +1,6 @@
 $(document).ready( function() {
     
+
        // bind click event to all internal page anchors
     $('a[href*="#"]').on('click', function (e) {
         // prevent default action and bubbling
