@@ -16,6 +16,8 @@ $(document).ready( function() {
         });
     });
     
+    $('.bordas').velocity({scaleX:200},{duration:2000},{easing:'ease'});
+
     
     /*Initialize Swiper*/
 var swiper = new Swiper('.swiper-container', {

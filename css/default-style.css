@@ -99,21 +99,13 @@ nav #navbar-collapse ul li.active a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 0;
+    width: 1%;
     height: 100%;
     border-top: 0.5rem solid goldenrod;
     border-bottom: 0.5rem solid goldenrod;
-    -webkit-animation: bordas 2s ease;
-    animation: bordas 2s ease;
+    -webkit-transform: translateZ(0);
 }
-@-webkit-keyframes bordas{
-    from {width: 0;}
-    to {width: 100%;}
-}
-@keyframes bordas{
-    from {width: 0;}
-    to {width: 100%;}
-}
+
 
 #home .logo h1 {
     padding: 0;
