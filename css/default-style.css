@@ -1,3 +1,14 @@
+@font-face {
+    font-family: quicksand;
+    src: url(../fonts/Quicksand/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: quicksand;
+    src: url(../fonts/Quicksand/Quicksand-Bold.ttf);
+    font-weight:bold;
+}
+
+
 body,
 html {
     font-size: 100%;
@@ -5,12 +16,12 @@ html {
     overflow-x: hidden!important;
     /*font-family: quicksand, sans-serif;*/
 }
-
 body {
     background-color: #333333;
     position: relative;
     color: #f0f0f0;
     height: 100%;
+    font-weight:
 }
 
 nav.navbar-fixed-top {
