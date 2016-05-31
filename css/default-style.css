@@ -103,7 +103,12 @@ nav #navbar-collapse ul li.active a {
     height: 100%;
     border-top: 0.5rem solid goldenrod;
     border-bottom: 0.5rem solid goldenrod;
-    -webkit-transform: translateZ(0);
+    -webkit-transition: width 2s ease-in;
+    transition: width 2s ease-in;
+
+}
+#home .logo .bordas:hover {
+    width: 100%;
 }
 
 

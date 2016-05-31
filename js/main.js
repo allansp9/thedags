@@ -15,8 +15,6 @@ $(document).ready( function() {
             easing: 'ease-in-out'
         });
     });
-    
-    $('.bordas').velocity({scaleX:200},{duration:2000},{easing:'ease'});
 
     
     /*Initialize Swiper*/
