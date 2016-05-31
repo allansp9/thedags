@@ -50,15 +50,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div id="home">
-                   <picture class="background">
-                         <!--[if IE 9]><video style="display: none;"><![endif]-->
-                          <source srcset="img/large.jpg" media="(min-width: 2001px)">
-                          <source srcset="img/medium.jpg" media="(min-width: 1001px)">
-                          <source srcset="img/small.jpg" media="(min-width: 501px)">
-                          <source srcset="img/extra-small.jpg" media="(max-width: 500px)">
-                          <!--[if IE 9]></video><![endif]-->
-                          <img srcset="img/large.jpg" alt="Background">
-                   </picture>
+                  <div class="background">
+                       <img src="img/large.jpg" srcset="img/small.jpg 1000w, img/medium.jpg 2000w" sizes="(max-width: 1000px) 1000px, 2000px" alt="Background">
+                   </div>
                     <h1 class="logo">THE DAGS.</h1>
                     <br>
                     <h5>BAR & DOGUERIA</h5>
@@ -261,6 +255,8 @@
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAoTAdOMbN_mcCbVO8hubB5rREndhyLg6w"></script>
     <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
     <script src="js/picturefill.min.js"></script>
+    <script src="js/ofi.browser.js"></script>
+    <script>objectFitImages();</script>
     <script src="js/main.js"></script>
 
 </body>
