@@ -83,7 +83,7 @@ nav #navbar-collapse ul li.active a {
     -o-object-fit: cover;
     object-fit: cover;
     overflow: hidden;
-    font-family: 'object-fit: cover;'
+    font-family: 'object-fit: cover;' /*Polyfill for object-fit*/
 }
 #home h1.logo {
     font-size: 10rem;
