@@ -10,12 +10,13 @@ $(document).ready( function() {
         var target = $(this).attr('href');
         // scroll to each target
         $(target).velocity('scroll', {
+            translateZ:0,
             duration: 500,
             offset: -50,
             easing: 'ease-in-out'
         });
     });
-
+$(".social-button").velocity({translateZ: 0, rotateZ:"360deg"},{duration:1200, loop: true}, {easing:'ease'});
     
     /*Initialize Swiper*/
 var swiper = new Swiper('.swiper-container', {
