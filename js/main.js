@@ -16,7 +16,7 @@ $(document).ready( function() {
             easing: 'ease-in-out'
         });
     });
-$(".social-button").velocity({translateZ: 0, rotateZ:"360deg"},{duration:1200, loop: true}, {easing:'ease'});
+$("circle").velocity({translateZ: 0, strokeDasharray:0},{duration:5000, delay:0, loop: true}, {easing:'linear'});
     
     /*Initialize Swiper*/
 var swiper = new Swiper('.swiper-container', {
