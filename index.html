@@ -19,6 +19,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAoTAdOMbN_mcCbVO8hubB5rREndhyLg6w"></script>
     <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <script>
+    // Picture element HTML5 shiv
+    document.createElement( "picture" );
+    </script>
+    <script src="js/picturefill.min.js" async></script>
     <script src="js/main.js"></script>
 
     <!--Styles-->
@@ -61,6 +66,13 @@
         <div class="container-fluid">
             <div class="row">
                 <div id="home">
+                   <picture class="background">
+                          <source srcset="/img/large.jpg" media="(min-width: 2000px)">
+                          <source srcset="/img/medium.jpg" media="(min-width: 1001px)">
+                          <source srcset="/img/small.jpg" media="(max-width: 1000px)">
+                          <source srcset="/img/extra-small.jpg" media="(max-width: 500px)">
+                          <img srcset="/img/large.jpg" alt="Background">
+                   </picture>
                     <h1 class="logo">THE DAGS.</h1>
                     <br>
                     <h5>BAR & DOGUERIA</h5>

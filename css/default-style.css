@@ -48,9 +48,6 @@ nav #navbar-collapse ul li.active a {
 }
 
 #home {
-    background-image: url(../img/bg-home3.jpg);
-    background-size: cover;
-    background-position: center;
     height: 100vh;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -70,7 +67,20 @@ nav #navbar-collapse ul li.active a {
     -ms-flex-direction: column;
     flex-direction: column;
 }
+#home picture.background{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+    z-index: -1;
+}
+picture.background img {
 
+}
 #home h1.logo {
     font-size: 10rem;
     font-family: Impact;
