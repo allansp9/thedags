@@ -90,7 +90,7 @@ var swiper = new Swiper('.swiper-container', {
                     position: new google.maps.LatLng(-23.96760, -46.31404),
                     animation:google.maps.Animation.BOUNCE,
                     map: map,
-                    icon:'../img/star-3.png'
+                    icon:'img/star-3.png'
                 });
                 google.maps.event.addDomListener(window, "resize", function() {
                     var center = map.getCenter();
