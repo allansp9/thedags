@@ -14,7 +14,7 @@ $(document).ready( function() {
             offset: -50,
             easing: 'ease-in-out'
         });
-    });   
+    });
     
     
     /*Initialize Swiper*/
