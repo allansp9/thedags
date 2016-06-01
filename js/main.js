@@ -17,8 +17,8 @@ $(document).ready( function() {
         });
     });
 $(".borda-top,.borda-bottom").velocity({translateZ: 0, translateX:"1000px"},{delay:500, duration:3000, ease:"linear"});
-    
-    /*Initialize Swiper*/
+
+     /*Initialize Swiper*/
 var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,

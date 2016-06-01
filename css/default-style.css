@@ -359,46 +359,46 @@ div#cardapio .divider {
 }
 
 #contato {
-    max-height: 750px;
     overflow: hidden;
     background-color: #222222;
+    margin: auto;
+    height: 440px;
 }
 
 .mapa {
     display: block;
     height: 400px;
+    margin-top: 20px;
 }
 
-.endereco {
-    height: 350px;
-    margin: auto;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+.botoes-contato a{
+    font-family: 'FontAwesome';
+	font-size: 2rem;
+	line-height: 1;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+    margin-right: 15px;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
-.endereco h2 {
-    text-align: center;
-    font-size: 2em;
-}
 
 footer {
-    height: 100px;
-    background-color: #222222;
+    height: 50px;
+    background-color: goldenrod;
+    border-top: 1px solid whitesmoke;
+}
+footer .container p:first-child{
+    float: left;
+}
+footer .container p:last-child{
+    float: right;
 }
 
 @media all and (min-width:501px) and (max-width:768px) {
-
     #home .logo h1 {
         font-size: 7rem;
     }
@@ -407,9 +407,6 @@ footer {
     }
     #home h5 {
         font-size: 1.82rem;
-    }
-    #navbar-collapse ul li {
-        text-align: center;
     }
 }
 
@@ -463,9 +460,13 @@ footer {
 }
 
 @media all and (max-width:768px){
-        div#cardapio {
+    div#cardapio {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
     }
+    #navbar-collapse ul li {
+        text-align: center;
+    }
+
 }
