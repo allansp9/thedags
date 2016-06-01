@@ -182,6 +182,7 @@ nav #navbar-collapse ul li.active a {
     position: relative;
     padding-top: 100px;
     background-color: #222222;
+    background-image: url(../img/classy-fabric.png);
 }
 
 .swiper-slide {
@@ -224,6 +225,7 @@ nav #navbar-collapse ul li.active a {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    background-image: url(../img/classy-fabric.png);
 }
 
 .social-button {
@@ -238,7 +240,7 @@ nav #navbar-collapse ul li.active a {
 	position: relative;
 	z-index: 1;
 	color: #fff;
-    background: rgba(255,255,255,0.1);
+    background: #333333;
 	-webkit-transition: background 0.2s, color 0.2s;
 	-moz-transition: background 0.2s, color 0.2s;
 	transition: background 0.2s, color 0.2s;
@@ -366,6 +368,7 @@ div#cardapio .divider {
     background-color: #222222;
     margin: auto;
     height: 440px;
+    background-image: url(../img/classy-fabric.png);
 }
 
 .mapa {
