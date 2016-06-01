@@ -91,35 +91,30 @@ nav #navbar-collapse ul li.active a {
 #home .logo {
     text-align: center;
     position: relative;
-    height: 10rem;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
-.svg-top {
+
+[class|=borda]{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 10px;
+    left: -1000px;
+    height: 30px;
+    width: 1000px;
+    background-color: goldenrod;
 }
-.svg-bottom {
-    position: absolute;
+.borda-bottom{
     bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 10px;
-}
-svg line {
-	stroke-width: 20;
-	stroke: goldenrod;
-	fill: none;
-	stroke-dasharray:1000;
-    stroke-dashoffset:0;
 }
 
 #home .logo h1 {
-    padding: 0;
     margin: 0;
+    padding: 0;
     font-size: 10rem;
-    line-height: 100%;
+    line-height: 110%;
     font-family: Impact;
     color: goldenrod;
 }
