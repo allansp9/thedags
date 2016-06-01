@@ -100,7 +100,7 @@ nav #navbar-collapse ul li.active a {
     overflow: hidden;
 }
 
-[class|=borda]{
+[class|=borda] {
     position: absolute;
     left: -1000px;
     height: 1rem;
@@ -108,7 +108,8 @@ nav #navbar-collapse ul li.active a {
     background-color: goldenrod;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
-.borda-bottom{
+
+.borda-bottom {
     z-index: 2;
     bottom: 0;
     box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.2);
@@ -164,11 +165,13 @@ nav #navbar-collapse ul li.active a {
     z-index: 10;
     background-color: inherit;
 }
-#sobre h2{
+
+#sobre h2 {
     font-size: 3em;
     margin-bottom: 20px;
     font-family: 'Roboto';
 }
+
 #sobre p {
     max-width: 50rem;
     text-align: center;
@@ -202,16 +205,19 @@ nav #navbar-collapse ul li.active a {
     -webkit-align-items: center;
     align-items: center;
 }
+
 .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        max-width: 845px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    max-width: 845px;
+    height: auto;
 }
 .swiper-slide img{
     width: 100%;
     height: auto;
 }
+
 
 .social-stuff {
     height: 150px;
@@ -234,78 +240,80 @@ nav #navbar-collapse ul li.active a {
 }
 
 .social-button {
-	display: inline-block;
-	font-size: 0px;
-	cursor: pointer;
-	margin: 15px 30px;
-	width: 90px;
-	height: 90px;
-	border-radius: 50%;
-	text-align: center;
-	position: relative;
-	z-index: 1;
-	color: #fff;
+    display: inline-block;
+    font-size: 0px;
+    cursor: pointer;
+    margin: 15px 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #fff;
     background: #333333;
-	-webkit-transition: background 0.2s, color 0.2s;
-	-moz-transition: background 0.2s, color 0.2s;
-	transition: background 0.2s, color 0.2s;
-
+    -webkit-transition: background 0.2s, color 0.2s;
+    -moz-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s;
 }
 
 .social-button:after {
-	pointer-events: none;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	content: '';
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
     top: -7px;
-	left: -7px;
-	padding: 7px;
-	box-shadow: 0 0 0 4px #fff;
-	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-	-webkit-transform: scale(.8);
-	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
-	-moz-transform: scale(.8);
-	-ms-transform: scale(.8);
-	transition: transform 0.2s, opacity 0.2s;
-	transform: scale(.8);
-	opacity: 0;
+    left: -7px;
+    padding: 7px;
+    box-shadow: 0 0 0 4px #fff;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -webkit-transform: scale(.8);
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    transition: transform 0.2s, opacity 0.2s;
+    transform: scale(.8);
+    opacity: 0;
 }
 
 .social-button:before {
-	font-family: 'FontAwesome';
-	font-size: 48px;
-	line-height: 90px;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	display: block;
-	-webkit-font-smoothing: antialiased;
+    font-family: 'FontAwesome';
+    font-size: 48px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
 }
 
+
 /* Effect 1a */
+
 .icon-wrap .social-button:hover {
-	background: rgba(255,255,255,1);
-	color: #333333;
+    background: rgba(255, 255, 255, 1);
+    color: #333333;
     text-decoration: none;
 }
+
 .icon-wrap .social-button:focus {
-	background: rgba(255,255,255,1);
-	color: #333333;
+    background: rgba(255, 255, 255, 1);
+    color: #333333;
     text-decoration: none;
 }
 
 .icon-wrap .social-button:hover:after {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-	opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
 }
 
 div#cardapio {
@@ -346,13 +354,13 @@ div#cardapio .divider {
 [class|=cardapio] ul {
     border-left: 1px goldenrod solid;
     list-style: none;
-
 }
 
 [class|=cardapio] li h3 {
     color: #999999;
     font-family: Roboto, sans-serif;
 }
+
 [class|=cardapio] li p {
     color: #888888;
     font-family: Cousine, sans-serif;
@@ -382,30 +390,31 @@ div#cardapio .divider {
     margin-top: 20px;
 }
 
-.botoes-contato a{
+.botoes-contato a {
     font-family: 'FontAwesome';
-	font-size: 2rem;
-	line-height: 1;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	-webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
     margin-right: 15px;
     color: whitesmoke;
     text-decoration: none;
 }
-
 
 footer {
     height: 50px;
     background-color: goldenrod;
     border-top: 1px solid whitesmoke;
 }
-footer .container p:first-child{
+
+footer .container p:first-child {
     float: left;
 }
-footer .container p:last-child{
+
+footer .container p:last-child {
     float: right;
 }
 
@@ -413,7 +422,7 @@ footer .container p:last-child{
     #home .logo h1 {
         font-size: 7rem;
     }
-    [class|=borda]{
+    [class|=borda] {
         height: 0.7rem;
     }
     #home h5 {
@@ -425,7 +434,7 @@ footer .container p:last-child{
     #home .logo h1 {
         font-size: 4rem;
     }
-    [class|=borda]{
+    [class|=borda] {
         height: 0.4rem;
     }
     #home h5 {
@@ -440,37 +449,36 @@ footer .container p:last-child{
     div#sobre p {
         font-size: 0.9rem;
     }
-    div#sobre::after{
+    div#sobre::after {
         display: none;
     }
-    .swiper-container{
+    .swiper-container {
         padding-top: .625rem;
     }
     .social-stuff {
         height: 100px;
     }
     .social-button {
-	    margin: 15px 10px;
-	    width: 50px;
-	    height: 50px;
+        margin: 15px 10px;
+        width: 50px;
+        height: 50px;
     }
     .social-button:before {
         font-size: 20px;
         line-height: 46px;
     }
     [class|=cardapio] h2 {
-    text-align: center;
-    font-family: Roboto;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    margin-bottom: 50px;
-    color: #f5f5f5;
+        text-align: center;
+        font-family: Roboto;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        margin-bottom: 50px;
+        color: #f5f5f5;
+    }
 }
 
-}
-
-@media all and (max-width:768px){
+@media all and (max-width:768px) {
     div#cardapio {
         -webkit-column-count: 1;
         -moz-column-count: 1;
@@ -482,10 +490,16 @@ footer .container p:last-child{
     .navbar-fixed-top {
         background-color: transparent!important;
     }
-    .navbar-header{
+    .navbar-header {
         background-color: goldenrod!important;
     }
     div#navbar-collapse {
         background-color: rgba(218, 165, 32, 0.9);
+    }
+}
+@media all and (max-width:1000px){
+    .swiper-slide {
+        width: 80%;
+        height: auto;
     }
 }
