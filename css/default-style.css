@@ -388,6 +388,7 @@ div#cardapio .divider {
     display: block;
     height: 400px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .botoes-contato a {
