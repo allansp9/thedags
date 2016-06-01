@@ -1,3 +1,7 @@
+@font-face{
+    font-family:'Gabo';
+    src: url('../fonts/Gabo.otf');
+}
 body,
 html {
     font-size: 100%;
@@ -19,7 +23,8 @@ nav.navbar-fixed-top {
 }
 
 nav.navbar-fixed-top .navbar-brand {
-    font-family: Impact,Charcoal, sans-serif!important;
+    font-family: 'Gabo', sans-serif;
+    text-decoration: underline overline;
     font-size: 2.5rem;
     color: whitesmoke!important;
 }
@@ -119,8 +124,8 @@ nav #navbar-collapse ul li.active a {
     margin: 0;
     padding: 0;
     font-size: 10rem;
-    line-height: 110%;
-    font-family: Impact,Charcoal, sans-serif!important;
+    font-family: 'Gabo', sans-serif;
+    /*font-weight: bolder;*/
     color: goldenrod;
 }
 
@@ -293,9 +298,6 @@ nav #navbar-collapse ul li.active a {
     -webkit-font-smoothing: antialiased;
 }
 
-
-/* Effect 1a */
-
 .icon-wrap .social-button:hover {
     background: rgba(255, 255, 255, 1);
     color: #333333;
@@ -363,7 +365,7 @@ div#cardapio .divider {
 
 [class|=cardapio] li p {
     color: #888888;
-    font-family: Cousine, sans-serif;
+    font-family: 'Cousine', sans-serif;
 }
 
 [class|=cardapio] h2 {
