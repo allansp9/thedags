@@ -16,7 +16,7 @@ $(document).ready( function() {
             easing: 'ease-in-out'
         });
     });
-$("circle").velocity({translateZ: 0, strokeDasharray:0},{duration:5000, delay:0, loop: true}, {easing:'linear'});
+$(".borda-top,.borda-bottom").velocity({translateZ: 0, translateX:"1000px"},{delay:500, duration:3000, ease:"linear"});
     
     /*Initialize Swiper*/
 var swiper = new Swiper('.swiper-container', {
