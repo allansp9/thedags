@@ -202,9 +202,14 @@ nav #navbar-collapse ul li.active a {
     -webkit-align-items: center;
     align-items: center;
 }
-
-.swiper-slide img {
-    max-width: 100%;
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        max-width: 845px;
+}
+.swiper-slide img{
+    width: 100%;
     height: auto;
 }
 

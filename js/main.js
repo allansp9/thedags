@@ -25,8 +25,10 @@ var swiper = new Swiper('.swiper-container', {
         loop: true,
         keyboardControl: true,
         grabCursor: true,
-        slidesPerView: '5',
-        breakpoints: {
+        slidesPerView: 'auto',
+        loopedSlides: 8,
+        centeredSlides: true
+        /*breakpoints: {
                 2400: {
                   slidesPerView: 5,  
                 },
@@ -42,7 +44,7 @@ var swiper = new Swiper('.swiper-container', {
                 850: {
                     slidesPerView: 1,
                 }
-            }
+            }*/
 
     });
        
