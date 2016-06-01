@@ -11,6 +11,7 @@ body {
     position: relative;
     color: #f0f0f0;
     height: 100%;
+    background-image: url(../img/black-twill.png);
 }
 
 nav.navbar-fixed-top {
@@ -67,6 +68,7 @@ nav #navbar-collapse ul li.active a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    overflow: hidden;
 }
 
 #home div.background {
@@ -331,6 +333,7 @@ div#cardapio .divider {
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 0 50px 50px 0px;
+    background-image: url(../img/classy-fabric.png);
 }
 
 [class|=cardapio] ul {
@@ -468,5 +471,13 @@ footer .container p:last-child{
     #navbar-collapse ul li {
         text-align: center;
     }
-
+    .navbar-fixed-top {
+        background-color: transparent!important;
+    }
+    .navbar-header{
+        background-color: goldenrod!important;
+    }
+    div#navbar-collapse {
+        background-color: rgba(218, 165, 32, 0.9);
+    }
 }
