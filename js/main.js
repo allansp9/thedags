@@ -7,7 +7,7 @@ $(document).ready(function () {
         triggerElement: "#sobre",
         triggerHook: 0,
         offset: -50
-    });
+    })
 
     // trigger a velocity opaticy animation
     .setVelocity(".navbar-brand", {
@@ -15,7 +15,7 @@ $(document).ready(function () {
         }, {
             duration: 400
         })
-        .addTo(controller);
+        .addTo(controller)
 
 
     // bind click event to all internal page anchors
