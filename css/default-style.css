@@ -11,11 +11,10 @@ html {
 }
 
 body {
-    background-color: #333333;
     position: relative;
     color: #f0f0f0;
     height: 100%;
-    background-image: url(../img/black-twill.png);
+
 }
 
 div.nav-wrapper{
@@ -96,7 +95,7 @@ nav #navbar-collapse ul li.active a {
 }
 
 #home div.background {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -337,7 +336,10 @@ nav #navbar-collapse ul li.active a {
     transform: scale(1);
     opacity: 1;
 }
-
+.cardapios-wrapper{
+    background-color: #333333;
+    background-image: url(../img/black-twill.png);
+}
 div#cardapio {
     padding: 3.125rem 0.9375rem 0 0.9375rem;
     width: 100%;
@@ -349,6 +351,7 @@ div#cardapio {
     -webkit-column-gap: 1.875rem;
     -moz-column-gap: 1.875rem;
     column-gap: 1.875rem;
+
 }
 
 div#cardapio>div {
