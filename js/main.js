@@ -32,6 +32,10 @@ $(document).ready(function () {
         }
     });
 
+    $('.nav a').on('click', function(){
+    $('.navbar-toggle').click() //bootstrap 3.x by Richard
+});
+
     /*Initialize Swiper*/
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
