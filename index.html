@@ -285,9 +285,9 @@
             // Iniciar ScrollMagic
     var controller = new ScrollMagic.Controller();
 
-    var scene = new ScrollMagic.Scene({triggerElement: "#sobre", triggerHook: 0})
+    var scene = new ScrollMagic.Scene({triggerElement: "#sobre", triggerHook: 0, offset: -50})
 					// trigger a velocity opaticy animation
-					.setVelocity(".navbar-brand", {opacity: 1}, {duration: 400})
+					.setVelocity(".navbar-brand",{opacity: 1},{duration: 400})
 					.addTo(controller)
 
     </script>

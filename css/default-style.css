@@ -19,22 +19,18 @@ body {
 }
 
 div.nav-wrapper{
-    height: 50px;
-    display: block;
+    height: 3.125rem; /*50px*/
 }
 nav.navbar {
-    background-color: goldenrod;
-    margin: 0;
-    height: 50px;
+    background-color: #daa520;
+    border: none;
 }
 nav.navbar.affix{
     width: 100%;
     top: 0;
     z-index: 999!important;
 }
-ul.nav li a.menu-logo{
-    opacity: 0;
-}
+
 nav.navbar .navbar-brand {
     text-decoration: overline underline;
     font-family: Gabo, sans-serif;
@@ -51,25 +47,29 @@ nav.navbar a.navbar-brand:focus{
 }
 div.navbar-header button.navbar-toggle {
     border: none;
-    background-color: transparent!important;
+    background-color: transparent;
 }
 
 button.navbar-toggle .icon-bar {
-    background-color: whitesmoke!important;
+    background-color: #f5f5f5;
 }
 nav #navbar-collapse ul li a {
-    color: whitesmoke;
+    color: #f5f5f5;
     font-size: 1.6rem;
     -webkit-transition: 0.2s linear;
     transition: 0.2s linear;
 }
 
 nav #navbar-collapse ul li a:hover {
-    background-color: darkgoldenrod;
+    background-color: #b8860b;
+}
+nav #navbar-collapse ul li a:focus {
+    background-color: inherit;
 }
 
 nav #navbar-collapse ul li.active a {
     color: #777777;
+    text-decoration: underline;
 }
 
 #home {
@@ -181,19 +181,19 @@ nav #navbar-collapse ul li.active a {
 #sobre::after {
     content: '';
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     left: 50%;
     -webkit-transform: translateX(-50%)rotate(45deg);
     transform: translateX(-50%)rotate(45deg);
-    bottom: -50px;
+    bottom: -3.125rem;
     z-index: 10;
     background-color: inherit;
 }
 
 #sobre h2 {
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     font-family: 'Roboto';
 }
 
@@ -233,9 +233,9 @@ nav #navbar-collapse ul li.active a {
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     background: #fff;
-    max-width: 845px;
+    max-width: 52.8125rem;
     height: auto;
 }
 .swiper-slide img{
@@ -245,7 +245,7 @@ nav #navbar-collapse ul li.active a {
 
 
 .social-stuff {
-    height: 150px;
+    height: 9.375rem;
     background-color: #222222;
     width: 100%;
     position: relative;
@@ -268,9 +268,9 @@ nav #navbar-collapse ul li.active a {
     display: inline-block;
     font-size: 0px;
     cursor: pointer;
-    margin: 15px 30px;
-    width: 90px;
-    height: 90px;
+    margin: 1rem 2rem;
+    width: 5.625rem;
+    height: 5.625rem;
     border-radius: 50%;
     text-align: center;
     position: relative;
@@ -308,8 +308,8 @@ nav #navbar-collapse ul li.active a {
 
 .social-button:before {
     font-family: 'FontAwesome';
-    font-size: 48px;
-    line-height: 90px;
+    font-size: 3rem;
+    line-height: 5.625rem;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -339,16 +339,16 @@ nav #navbar-collapse ul li.active a {
 }
 
 div#cardapio {
-    padding: 50px 15px 0 15px;
+    padding: 3.125rem 0.9375rem 0 0.9375rem;
     width: 100%;
     max-width: 1212px;
     margin: auto;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    -webkit-column-gap: 30px;
-    -moz-column-gap: 30px;
-    column-gap: 30px;
+    -webkit-column-gap: 1.875rem;
+    -moz-column-gap: 1.875rem;
+    column-gap: 1.875rem;
 }
 
 div#cardapio>div {
@@ -362,14 +362,14 @@ div#cardapio h3 {
 
 div#cardapio .divider {
     background: none;
-    border-top: 2px rgba(218, 165, 32, 0.67) dashed;
+    border-top: 0.125rem rgba(218, 165, 32, 0.67) dashed;
 }
 
 [class|=cardapio] {
     background-color: #222222;
-    padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 0 50px 50px 0px;
+    padding: 1.25rem;
+    margin-bottom: 1.875rem;
+    border-radius: 0 3.125rem 3.125rem 0;
     background-image: url(../img/classy-fabric.png);
 }
 
@@ -394,7 +394,7 @@ div#cardapio .divider {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 3rem;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
     color: #f5f5f5;
 }
 
@@ -402,15 +402,15 @@ div#cardapio .divider {
     overflow: hidden;
     background-color: #222222;
     margin: auto;
-    min-height: 440px;
+    min-height: 27.5rem;
     background-image: url(../img/classy-fabric.png);
 }
 
 .mapa {
     display: block;
-    height: 400px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    height: 25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .botoes-contato a {
@@ -422,22 +422,24 @@ div#cardapio .divider {
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-    margin-right: 15px;
+    margin-right: 0.9375rem;
     color: whitesmoke;
     text-decoration: none;
 }
 
 footer {
-    min-height: 50px;
+    min-height: 3.125rem;
     background-color: goldenrod;
 }
 
 footer .container p:first-child {
     float: left;
+    padding-top: 1rem;
 }
 
 footer .container p:last-child {
     float: right;
+    padding-top: 1rem;
 }
 
 @media all and (min-width:501px) and (max-width:768px) {
@@ -478,16 +480,16 @@ footer .container p:last-child {
         padding-top: .625rem;
     }
     .social-stuff {
-        height: 100px;
+        height: 6.25;
     }
     .social-button {
-        margin: 15px 10px;
-        width: 50px;
-        height: 50px;
+        margin: 0.9375rem 0.625rem;
+        width: 3.125rem;
+        height: 3.125rem;
     }
     .social-button:before {
-        font-size: 20px;
-        line-height: 46px;
+        font-size: 1.25rem;
+        line-height: 2.875rem;
     }
     [class|=cardapio] h2 {
         text-align: center;

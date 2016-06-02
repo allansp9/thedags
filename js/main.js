@@ -1,5 +1,23 @@
 $(document).ready(function () {
 
+    // Iniciar ScrollMagic
+    var controller = new ScrollMagic.Controller();
+
+    var scene = new ScrollMagic.Scene({
+        triggerElement: "#sobre",
+        triggerHook: 0,
+        offset: -50
+    });
+
+    // trigger a velocity opaticy animation
+    .setVelocity(".navbar-brand", {
+            opacity: 1
+        }, {
+            duration: 400
+        })
+        .addTo(controller);
+
+
     // bind click event to all internal page anchors
     $('a[href*="#"]').on('click', function (e) {
         // prevent default action and bubbling
@@ -33,8 +51,12 @@ $(document).ready(function () {
     });
 
     //Close Menu on click
-    $('.nav a').on('click', function () {
-        $('.navbar-toggle').click() //bootstrap 3.x by Richard
+    $(function () {
+        $('.nav a').on('click', function () {
+            if ($('.navbar-toggle').css('display') != 'none') {
+                $(".navbar-toggle").trigger("click");
+            }
+        });
     });
 
     //Initialize Swiper
