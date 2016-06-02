@@ -32,11 +32,12 @@ $(document).ready(function () {
         }
     });
 
-    $('.nav a').on('click', function(){
-    $('.navbar-toggle').click() //bootstrap 3.x by Richard
-});
+    //Close Menu on click
+    $('.nav a').on('click', function () {
+        $('.navbar-toggle').click() //bootstrap 3.x by Richard
+    });
 
-    /*Initialize Swiper*/
+    //Initialize Swiper
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
