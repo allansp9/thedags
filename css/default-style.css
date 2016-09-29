@@ -14,7 +14,21 @@ body {
     position: relative;
     color: #f0f0f0;
     height: 100%;
+    padding-right: 0 !important;
 
+}
+
+.modal-header {
+    border-bottom: none;
+    margin-bottom: 25px;
+}
+.modal-content{
+    height: 200px;
+    width: 250px;
+    background-color: #222222;
+    padding-left: 45px;
+    font-size: 30px;
+    border: 5px solid goldenrod;
 }
 
 div.nav-wrapper{
@@ -116,9 +130,9 @@ nav #navbar-collapse ul li.active a {
 #home .logo {
     text-align: center;
     position: relative;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;*/
     align-items: center;
     overflow: hidden;
 }
@@ -402,6 +416,7 @@ div#cardapio .divider {
 }
 
 #contato {
+    padding-top: 100px;
     overflow: hidden;
     background-color: #222222;
     margin: auto;
