@@ -416,7 +416,7 @@ div#cardapio .divider {
 }
 
 #contato {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     overflow: hidden;
     background-color: #222222;
     margin: auto;
